@@ -7,4 +7,4 @@ What was the average rental duration for all videos?
 Which countries are Rockbuster customers based in?
 Where are customers with a high lifetime value based?
 Do sales figures vary between geographic regions?
-The data set that contains information about Rockbuster’s film inventory, customers, and payments, among other things.
+This data set contains information about Rockbuster’s film inventory, customers, and payments, among other things.
