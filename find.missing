@@ -1,0 +1,7 @@
+Below are SQL queries to find missing values
+
+SELECT * FROM film
+WHERE title IS null
+
+SELECT * FROM customer
+WHERE customer_ID IS null
