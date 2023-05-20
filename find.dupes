@@ -1,0 +1,24 @@
+Below are SQL queries for finding duplicate values
+
+SELECT title,
+       release_year,
+       language_id,
+       rental_duration,
+       COUNT(*)
+FROM film
+GROUP BY title,
+         release_year,
+         language_id,
+         rental_duration
+HAVING COUNT(*) >1;
+
+
+SELECT customer_id,
+       email,
+       address_id,
+       COUNT(*)
+FROM customer
+GROUP BY customer_id,
+   		    email,
+       	address_id 
+HAVING COUNT(*) >1;
