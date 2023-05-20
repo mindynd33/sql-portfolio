@@ -6,3 +6,8 @@ SELECT MIN(rental_rate) AS min_rent,
        	COUNT(rental_rate) AS count_rent_values,
        	COUNT(*) AS count_rows
 FROM film;
+
+SQL query to find mode
+SELECT MODE() WITHIN GROUP (ORDER BY rating)
+       AS modal_value
+FROM film;
