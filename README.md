@@ -1,8 +1,7 @@
-# sql-portfolio
+# CF-SQL-portfolio
 A project about a fictitious company named Rockbuster Stealth.
 
-This data set contains information about Rockbuster’s film inventory, customers, and payments, among other things.
-
+## Objective
 The goal of this project is to load all of Rockbuster’s data into a relational database management system (RDBMS). Then use SQL to analyze the data to answer the following questions:
 
 1. Which movies contributed the most/least to revenue gain?
@@ -14,3 +13,12 @@ The goal of this project is to load all of Rockbuster’s data into a relational
 4. Where are customers with a high lifetime value based?
 
 5. Do sales figures vary between geographic regions?
+
+## Data
+
+This data set contains information about Rockbuster’s:
+- film inventory
+- customers
+- payments
+- staff
+
